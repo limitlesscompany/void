@@ -1,4 +1,4 @@
-package codewars_kyu7;
+package com.codewars.kyu7;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

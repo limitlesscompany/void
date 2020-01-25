@@ -1,8 +1,7 @@
-package codewars_kyu7;
+package com.codewars.kyu7;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
-import org.junit.runners.JUnit4;
 
 public class RegexPINTest {
     @Test

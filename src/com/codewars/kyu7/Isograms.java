@@ -1,4 +1,4 @@
-package codewars_kyu7;
+package com.codewars.kyu7;
 
 public class Isograms {
 

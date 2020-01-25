@@ -1,4 +1,4 @@
-package codewars_kyu6;
+package com.codewars.kyu6;
 
 import java.util.ArrayList;
 
