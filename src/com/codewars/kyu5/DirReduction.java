@@ -34,25 +34,25 @@ public class DirReduction {
         boolean finish = false;
 
         newList = new LinkedList<>(Arrays.asList(arr));
-    int counter = newList.size();
-        while (counter > 0) {
+   // int counter = newList.size();
+    //    while (counter > 0) {
 
             for (int i = newList.size() - 1; i > 0; i--) {
-
-                finish = false;
+                System.out.println(newList);
+         //       finish = false;
                 Directions currDirection = Directions.valueOf(newList.get(i));
                 Directions nextDirection = Directions.valueOf(newList.get(i - 1));
 
                 if (nextDirection == map.get(currDirection))  {
                         newList.remove(i);
                         newList.remove(i - 1);
-                        i--;
+                        i = newList.size();
                 }
 
 
-            }
+       //     }
 
-            counter--;
+          //  counter--;
         }
 
        String[] newArr = new String[newList.size()];
